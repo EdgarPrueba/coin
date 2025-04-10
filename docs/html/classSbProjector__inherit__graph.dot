@@ -1,0 +1,28 @@
+digraph "SbProjector"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SbProjector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SbProjector class is the abstract base projector class."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SbCylinderProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbCylinderProjector.html",tooltip="The SbCylinderProjector class is the abstract base class for mapping to cylindrical surfaces."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SbCylinderSectionProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbCylinderSectionProjector.html",tooltip="The SbCylinderSectionProjector projects 2D points to a sliced cylinder."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SbCylinderPlaneProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbCylinderPlaneProjector.html",tooltip="The SbCylinderPlaneProjector class projects 2D points to a half-cylinder and a plane."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SbCylinderSheetProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbCylinderSheetProjector.html",tooltip="The SbCylinderSheetProjector class projects 2D points to 3D points on a sheet covering a cylindrical ..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SbLineProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbLineProjector.html",tooltip="The SbLineProjector class projects 2D points to 3D points along a line."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SbPlaneProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPlaneProjector.html",tooltip="The SbPlaneProjector class projects 2D points to 3D points in a plane."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SbSphereProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSphereProjector.html",tooltip="The SbSphereProjector class is the abstract base class for mapping to spherical surfaces."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SbSphereSectionProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSphereSectionProjector.html",tooltip="The SbSphereSectionProjector projects 2D points to a sliced sphere."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SbSpherePlaneProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSpherePlaneProjector.html",tooltip="The SbSpherePlaneProjector class projects 2D points to a half-sphere and a plane."];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SbSphereSheetProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSphereSheetProjector.html",tooltip="The SbSphereSheetProjector class projects 2D points to 3D points on a sheet covering a spherical shap..."];
+}

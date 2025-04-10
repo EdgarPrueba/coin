@@ -1,0 +1,58 @@
+digraph "SoTransformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoTransformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoTransformation class is the abstract base class for transformation nodes."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNode.html",tooltip="The SoNode class is the base class for nodes used in scene graphs."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoAntiSquish",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAntiSquish.html",tooltip="The SoAntiSquish class is used to reset to uniform scaling."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoGeoLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGeoLocation.html",tooltip="The SoGeoLocation class is used to georeference the following nodes."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoMatrixTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMatrixTransform.html",tooltip="The SoMatrixTransform class is a transformation node."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoResetTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoResetTransform.html",tooltip="The SoResetTransform class is a node type which makes it possible to \"nullify\" state during traversal..."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoRotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoRotation.html",tooltip="The SoRotation class specifies a rotation transformation."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoPendulum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPendulum.html",tooltip="The SoPendulum class is used to create oscillating rotations."];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoRotor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoRotor.html",tooltip="The SoRotor class is a node used to animate rotations."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoRotationXYZ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoRotationXYZ.html",tooltip="The SoRotationXYZ class is a node type for specifying rotation around a particular axis."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SoScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoScale.html",tooltip="The SoScale class is a node type for scaling scene graph geometry."];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SoSurroundScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSurroundScale.html",tooltip="The SoSurroundScale class is used to automatically scale geometry to surround other geometry."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SoTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTransform.html",tooltip="The SoTransform class is the \"all-purpose\" transformation node type."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SoTransformManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTransformManip.html",tooltip=" "];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SoCenterballManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCenterballManip.html",tooltip=" "];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SoHandleBoxManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoHandleBoxManip.html",tooltip=" "];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SoJackManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoJackManip.html",tooltip=" "];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SoTabBoxManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTabBoxManip.html",tooltip=" "];
+  Node16 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SoTrackballManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTrackballManip.html",tooltip=" "];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SoTransformBoxManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTransformBoxManip.html",tooltip=" "];
+  Node16 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="SoTransformerManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTransformerManip.html",tooltip=" "];
+  Node1 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="SoTranslation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTranslation.html",tooltip="The SoTranslation class is a node type for specifying geometry translations."];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="SoShuttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShuttle.html",tooltip="The SoShuttle class is used to oscillate between two translations."];
+  Node1 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="SoUnits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoUnits.html",tooltip="The SoUnits class is a node for setting unit types."];
+}

@@ -1,0 +1,56 @@
+digraph "SoInt32Element"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoInt32Element",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoInt32Element class is the base class for elements that simply store a 32-bit integer."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoElement.html",tooltip="SoElement is the abstract base class for all elements."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoAnnoText3CharOrientElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAnnoText3CharOrientElement.html",tooltip="The SoAnnoText3CharOrientElement class is yet to be documented."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoAnnoText3FontSizeHintElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAnnoText3FontSizeHintElement.html",tooltip="The SoAnnoText3FontSizeHintElement class is yet to be documented."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoAnnoText3RenderPrintElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAnnoText3RenderPrintElement.html",tooltip="The SoAnnoText3RenderPrintElement class is yet to be documented."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoComplexityTypeElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoComplexityTypeElement.html",tooltip="The SoComplexityTypeElement class is yet to be documented."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoDecimationTypeElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoDecimationTypeElement.html",tooltip="The SoDecimationTypeElement class is yet to be documented."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoDrawStyleElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoDrawStyleElement.html",tooltip="The SoDrawStyleElement class is yet to be documented."];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoGLDrawStyleElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLDrawStyleElement.html",tooltip="The SoGLDrawStyleElement updates the current draw style in OpenGL."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoGLLightIdElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLLightIdElement.html",tooltip="The SoGLLightIdElement class is yet to be documented."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoGLShadowCullingElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLShadowCullingElement.html",tooltip="The SoGLShadowCullingElement class is yet to be documented."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoLightModelElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoLightModelElement.html",tooltip="The SoLightModelElement class is yet to be documented."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SoLinePatternElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoLinePatternElement.html",tooltip="The SoLinePatternElement class defines the line stipple pattern."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SoGLLinePatternElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLLinePatternElement.html",tooltip="The SoGLLinePatternElement class changes the line stipple pattern of the OpenGL render state."];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SoMaterialBindingElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMaterialBindingElement.html",tooltip="The SoMaterialBindingElement class is yet to be documented."];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SoNormalBindingElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNormalBindingElement.html",tooltip="The SoNormalBindingElement is yet to be documented."];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SoPickStyleElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPickStyleElement.html",tooltip="The SoPickStyleElement is yet to be documented."];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SoShadowStyleElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShadowStyleElement.html",tooltip="The SoShadowStyleElement class is yet to be documented."];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SoSwitchElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSwitchElement.html",tooltip="The SoSwitchElement class is yet to be documented."];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SoTextOutlineEnabledElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextOutlineEnabledElement.html",tooltip="The SoTextOutlineEnabledElement class is yet to be documented."];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SoTextureCoordinateBinding\lElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextureCoordinateBindingElement.html",tooltip="The SoTextureCoordinateBindingElement class is yet to be documented."];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SoTextureScalePolicyElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextureScalePolicyElement.html",tooltip="The SoTextureScalePolicyElement class is yet to be documented."];
+  Node1 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="SoTextureUnitElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextureUnitElement.html",tooltip="The SoTextureUnitElement class is yet to be documented."];
+  Node1 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="SoUnitsElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoUnitsElement.html",tooltip="The SoUnitsElement class is yet to be documented."];
+  Node1 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="SoVertexAttributeBinding\lElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVertexAttributeBindingElement.html",tooltip="The SoVertexAttributeBindingElement class is yet to be documented."];
+}

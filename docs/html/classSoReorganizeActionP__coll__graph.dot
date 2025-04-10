@@ -1,0 +1,36 @@
+digraph "SoReorganizeActionP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoReorganizeActionP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pvcache" ,fontname="Helvetica"];
+  Node2 [label="SoPrimitiveVertexCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPrimitiveVertexCache.html",tooltip="This cache contains an organized version of the geometry in vertex array form."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCache.html",tooltip="The SoCache class is the superclass for all internal cache classes."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sa" ,fontname="Helvetica"];
+  Node4 [label="SoSearchAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSearchAction.html",tooltip="The SoSearchAction class provides methods for searching through scene graphs."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAction.html",tooltip="The SoAction class is the base class for all traversal actions."];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" traversalMethods" ,fontname="Helvetica"];
+  Node6 [label="SoActionMethodList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoActionMethodList.html",tooltip="The SoActionMethodList class contains function pointers for action methods."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node8 [label="SoState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoState.html",tooltip="The SoState class manages the Coin scene graph traversal state data."];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" master" ,fontname="Helvetica"];
+  Node9 [label="SoReorganizeAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoReorganizeAction.html",tooltip="The SoReorganizeAction class reorganizes your scene graph to optimize traversal/rendering."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoSimplifyAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSimplifyAction.html",tooltip="The SoSimplifyAction class is the base class for the simplify action classes."];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" needtexcoords" ,fontname="Helvetica"];
+  Node11 [label="SbList\< SbBool \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" diffusecolor" ,fontname="Helvetica"];
+  Node12 [label="SbColor4f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbColor4f.html",tooltip="The SbColor4f class contains the red, green, blue and alpha components which make up a color value."];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SbVec4f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbVec4f.html",tooltip="The SbVec4f class is a 4 dimensional vector with floating point coordinates."];
+  Node14 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cbaction" ,fontname="Helvetica"];
+  Node14 [label="SoCallbackAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCallbackAction.html",tooltip="The SoCallbackAction class invokes callbacks at specific nodes."];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

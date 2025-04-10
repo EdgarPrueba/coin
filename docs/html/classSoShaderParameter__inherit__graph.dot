@@ -1,0 +1,54 @@
+digraph "SoShaderParameter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoShaderParameter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoShaderParameter class is the base class for all shader parameter classes."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNode.html",tooltip="The SoNode class is the base class for nodes used in scene graphs."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoUniformShaderParameter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoUniformShaderParameter.html",tooltip="The SoUniformShaderParameter class is the base class for all uniform shader variables."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoShaderParameter1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter1f.html",tooltip="The SoShaderParameter1f class is used to define a floating point value as shader parameter."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoShaderParameter1i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter1i.html",tooltip="The SoShaderParameter1i class is used to define an integer value as shader parameter."];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoShaderParameter2f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter2f.html",tooltip="The SoShaderParameter2f class is used to define a two-dimensional floating point value as shader para..."];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoShaderParameter2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter2i.html",tooltip="The SoShaderParameter2i class is used to define a two-dimensional integer value as shader parameter."];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoShaderParameter3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter3f.html",tooltip="The SoShaderParameter3f class is used to define a three-dimensional floating point value as shader pa..."];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoShaderParameter3i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter3i.html",tooltip="The SoShaderParameter3i class is used to define a three-dimensional integer value as shader parameter..."];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoShaderParameter4f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter4f.html",tooltip="The SoShaderParameter4f class is used to define a four-dimensional floating point value as shader par..."];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SoShaderParameter4i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameter4i.html",tooltip="The SoShaderParameter4i class is used to define a four-dimensional integer value as shader parameter."];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SoShaderParameterArray1f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray1f.html",tooltip="The SoShaderParameterArray1f class is used to define a floating point array as shader parameter."];
+  Node5 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SoShaderParameterArray1i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray1i.html",tooltip="The SoShaderParameterArray1i class is used to define an integer array as shader parameter."];
+  Node5 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SoShaderParameterArray2f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray2f.html",tooltip="The SoShaderParameterArray2f class is used to define a two-dimensional floating point array as shader..."];
+  Node5 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SoShaderParameterArray2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray2i.html",tooltip="The SoShaderParameterArray2i class is used to define a two-dimensional integer array as shader parame..."];
+  Node5 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SoShaderParameterArray3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray3f.html",tooltip="The SoShaderParameterArray3f class is used to define a three-dimensional floating point array as shad..."];
+  Node5 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SoShaderParameterArray3i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray3i.html",tooltip="The SoShaderParameterArray3i class is used to define a three-dimensional integer array as shader para..."];
+  Node5 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SoShaderParameterArray4f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray4f.html",tooltip="The SoShaderParameterArray4f class is used to define a four-dimensional floating point array as shade..."];
+  Node5 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SoShaderParameterArray4i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterArray4i.html",tooltip="The SoShaderParameterArray4i class is used to define a four-dimensional integer array as shader param..."];
+  Node5 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SoShaderParameterMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterMatrix.html",tooltip="The SoShaderParameterMatrix class is used to define a matrix as shader parameter."];
+  Node5 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="SoShaderParameterMatrixArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderParameterMatrixArray.html",tooltip="The SoShaderParameterMatrixArray class is used to define a matrix array as shader parameter."];
+  Node5 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="SoShaderStateMatrixParameter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShaderStateMatrixParameter.html",tooltip="The SoShaderStateMatrixParameter class is used to define a matrix as shader parameter whose content i..."];
+}

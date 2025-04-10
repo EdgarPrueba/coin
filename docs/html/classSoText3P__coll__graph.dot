@@ -1,0 +1,17 @@
+digraph "SoText3P"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoText3P",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cache" ,fontname="Helvetica"];
+  Node2 [label="SoGlyphCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGlyphCache.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCache.html",tooltip="The SoCache class is the superclass for all internal cache classes."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" normalgenerator" ,fontname="Helvetica"];
+  Node4 [label="SoNormalGenerator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNormalGenerator.html",tooltip="The SoNormalGenerator class is used to generate normals."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" maxglyphbbox" ,fontname="Helvetica"];
+  Node5 [label="SbBox3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbBox3f.html",tooltip="The SbBox3f class is an abstraction for an axis aligned 3 dimensional box."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" widths" ,fontname="Helvetica"];
+  Node6 [label="SbList\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+}

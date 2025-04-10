@@ -1,0 +1,30 @@
+digraph "SoNodeEngine"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoNodeEngine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SoNodeEngine is the base class for Coin node engines."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNode.html",tooltip="The SoNode class is the base class for nodes used in scene graphs."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoVRMLInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLInterpolator.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoVRMLColorInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLColorInterpolator.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoVRMLCoordinateInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLCoordinateInterpolator.html",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoVRMLNormalInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLNormalInterpolator.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoVRMLOrientationInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLOrientationInterpolator.html",tooltip=" "];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoVRMLPositionInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLPositionInterpolator.html",tooltip=" "];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoVRMLScalarInterpolator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLScalarInterpolator.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoVRMLTimeSensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVRMLTimeSensor.html",tooltip=" "];
+}

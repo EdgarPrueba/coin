@@ -1,0 +1,18 @@
+digraph "SoShapeP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoShapeP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mutex" ,fontname="Helvetica"];
+  Node2 [label="SbMutex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbMutex.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pvcache" ,fontname="Helvetica"];
+  Node3 [label="SoPrimitiveVertexCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPrimitiveVertexCache.html",tooltip="This cache contains an organized version of the geometry in vertex array form."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCache.html",tooltip="The SoCache class is the superclass for all internal cache classes."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bboxcache" ,fontname="Helvetica"];
+  Node5 [label="SoBoundingBoxCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBoundingBoxCache.html",tooltip="The SoBoundingBoxCache class is used to cache bounding boxes."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bumprender" ,fontname="Helvetica"];
+  Node6 [label="soshape_bumprender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsoshape__bumprender.html",tooltip=" "];
+}

@@ -1,0 +1,17 @@
+digraph "SoGLImageP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoGLImageP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dummyimage\nimage" ,fontname="Helvetica"];
+  Node2 [label="SbImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbImage.html",tooltip="The SbImage class is an abstract data type for 2D and 3D images."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" classTypeId" ,fontname="Helvetica"];
+  Node3 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" owner" ,fontname="Helvetica"];
+  Node4 [label="SoGLImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLImage.html",tooltip="The SoGLImage class is used to handle OpenGL 2D/3D textures."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" glsize" ,fontname="Helvetica"];
+  Node5 [label="SbVec3s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbVec3s.html",tooltip="The SbVec3s class is a 3 dimensional vector with short integer coordinates."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dlists" ,fontname="Helvetica"];
+  Node6 [label="SbList\< SoGLImageP\l::dldata \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+}

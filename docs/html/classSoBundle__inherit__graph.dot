@@ -1,0 +1,15 @@
+digraph "SoBundle"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoBundle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoBundle class is the superclass for all bundle classes."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoMaterialBundle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMaterialBundle.html",tooltip="The SoMaterialBundle class simplifies material handling."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoNormalBundle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNormalBundle.html",tooltip="The SoNormalBundle class simplifies normal handling."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoTextureCoordinateBundle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextureCoordinateBundle.html",tooltip="The SoTextureCoordinateBundle class simplifies texture coordinate handling."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoVertexAttributeBundle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVertexAttributeBundle.html",tooltip="The SoVertexAttributeBundle class simplifies vertex attribute handling."];
+}

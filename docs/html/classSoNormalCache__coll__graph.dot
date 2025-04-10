@@ -1,0 +1,9 @@
+digraph "SoNormalCache"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoNormalCache",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoNormalCache class is used to hold cached normals."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCache.html",tooltip="The SoCache class is the superclass for all internal cache classes."];
+}

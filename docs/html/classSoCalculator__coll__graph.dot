@@ -1,0 +1,43 @@
+digraph "SoCalculator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoCalculator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="General purpose calculator for floats and 3D float vectors."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoEngine.html",tooltip="SoEngine is the base class for Coin engines."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" oA\noB\noC\noD\noa\nob\noc\nod" ,fontname="Helvetica"];
+  Node5 [label="SoEngineOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoEngineOutput.html",tooltip="The SoEngineOutput class is the output slots in SoEngine instances."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" a\nb\nc\nd\ne\nf\ng\nh" ,fontname="Helvetica"];
+  Node6 [label="SoMFFloat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMFFloat.html",tooltip="The SoMFFloat class is a container for floating point values."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoMField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMField.html",tooltip="The SoMField class is the base class for fields which can contain multiple values."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoField.html",tooltip="The SoField class is the top-level abstract base class for fields."];
+  Node3 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" container" ,fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" storage" ,fontname="Helvetica"];
+  Node9 [label="SoConnectStorage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoConnectStorage.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" masterfields\nslaves" ,fontname="Helvetica"];
+  Node10 [label="SoFieldList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldList.html",tooltip="The SoFieldList class is a container for pointers to SoField objects."];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node12 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" auditors" ,fontname="Helvetica"];
+  Node12 [label="SoAuditorList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAuditorList.html",tooltip="The SoAuditorList class is used to keep track of auditors for certain object classes."];
+  Node11 -> Node12 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" container" ,fontname="Helvetica"];
+  Node13 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fieldtype" ,fontname="Helvetica"];
+  Node13 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+  Node14 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" masterengineouts" ,fontname="Helvetica"];
+  Node14 [label="SoEngineOutputList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoEngineOutputList.html",tooltip="The SoEngineOutputList class is a container for SoEngineOutput objects."];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" expression" ,fontname="Helvetica"];
+  Node15 [label="SoMFString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMFString.html",tooltip="The SoMFString class is a container for SbString values."];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" A\nB\nC\nD\nE\nF\nG\nH" ,fontname="Helvetica"];
+  Node16 [label="SoMFVec3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoMFVec3f.html",tooltip="The SoMFVec3f class is a container for SbVec3f vectors."];
+  Node7 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,13 @@
+digraph "SoGLCubeMapImageP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoGLCubeMapImageP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dlists" ,fontname="Helvetica"];
+  Node2 [label="SbList\< SoGLCubeMapImage\lP::dldata \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" classTypeId" ,fontname="Helvetica"];
+  Node3 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fakeimage\nimage" ,fontname="Helvetica"];
+  Node4 [label="SbImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbImage.html",tooltip="The SbImage class is an abstract data type for 2D and 3D images."];
+}

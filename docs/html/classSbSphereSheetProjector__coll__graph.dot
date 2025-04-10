@@ -1,0 +1,23 @@
+digraph "SbSphereSheetProjector"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SbSphereSheetProjector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SbSphereSheetProjector class projects 2D points to 3D points on a sheet covering a spherical shap..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SbSphereProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSphereProjector.html",tooltip="The SbSphereProjector class is the abstract base class for mapping to spherical surfaces."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SbProjector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbProjector.html",tooltip="The SbProjector class is the abstract base projector class."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" viewVol" ,fontname="Helvetica"];
+  Node4 [label="SbViewVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbViewVolume.html",tooltip="The SbViewVolume class is a viewing volume in 3D space."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" llf\nlrf\nprojDir\nprojPoint\nulf" ,fontname="Helvetica"];
+  Node5 [label="SbVec3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbVec3f.html",tooltip="The SbVec3f class is a 3 dimensional vector with floating point coordinates."];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" workingToWorld\nworldToWorking" ,fontname="Helvetica"];
+  Node6 [label="SbMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbMatrix.html",tooltip="The SbMatrix class is a 4x4 dimensional representation of a matrix."];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sphere" ,fontname="Helvetica"];
+  Node7 [label="SbSphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbSphere.html",tooltip="The SbSphere class is a representation of a sphere."];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lastPoint" ,fontname="Helvetica"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" tolPlane" ,fontname="Helvetica"];
+  Node8 [label="SbPlane",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPlane.html",tooltip="The SbPlane class represents a plane in 3D space."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" planeDir\nplanePoint\nworkingProjPoint" ,fontname="Helvetica"];
+}

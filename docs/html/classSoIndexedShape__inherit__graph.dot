@@ -1,0 +1,27 @@
+digraph "SoIndexedShape"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoIndexedShape",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoIndexedShape class is the superclass for all indexed vertex shapes."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoVertexShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVertexShape.html",tooltip="The SoVertexShape class is the superclass for all vertex based shapes."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShape.html",tooltip="The SoShape class is the superclass for geometry shapes."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNode.html",tooltip="The SoNode class is the base class for nodes used in scene graphs."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoIndexedFaceSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIndexedFaceSet.html",tooltip="The SoIndexedFaceSet class is used to handle generic indexed facesets."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoIndexedLineSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIndexedLineSet.html",tooltip="The SoIndexedLineSet class is used to render and otherwise represent indexed lines."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoIndexedPointSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIndexedPointSet.html",tooltip="The SoIndexedPointSet class is used to display a set of 3D points."];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoIndexedMarkerSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIndexedMarkerSet.html",tooltip="The SoIndexedMarkerSet class is used to display a set of bitmap markers at 3D positions."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoIndexedTriangleStripSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIndexedTriangleStripSet.html",tooltip="The SoIndexedTriangleStripSet class keeps data for rendering and otherwise representing triangle stri..."];
+}

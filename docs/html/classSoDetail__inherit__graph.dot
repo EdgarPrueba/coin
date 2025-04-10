@@ -1,0 +1,24 @@
+digraph "SoDetail"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoDetail",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoDetail class is the superclass for all classes storing detailed information about particular sh..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoConeDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoConeDetail.html",tooltip="The SoConeDetail class contains information about the parts of a SoCone shape."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoCubeDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCubeDetail.html",tooltip="The SoCubeDetail class contains information about the parts of a SoCube shape."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoCylinderDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCylinderDetail.html",tooltip="The SoCylinderDetail class contains information about the parts of a SoCylinder shape."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoFaceDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFaceDetail.html",tooltip="The SoFaceDetail class is for storing detailed polygon information."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoLineDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoLineDetail.html",tooltip="The SoLineDetail class is for storing detailed 3D line information."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoNodeKitDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNodeKitDetail.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoPointDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPointDetail.html",tooltip="The SoPointDetail class is for storing detailed information for a single 3D point."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoTextDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTextDetail.html",tooltip="The SoTextDetail stores information about a character in a string."];
+}

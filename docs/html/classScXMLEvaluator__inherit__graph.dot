@@ -1,0 +1,18 @@
+digraph "ScXMLEvaluator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ScXMLEvaluator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="defines an interface for profile-dependent evaluators."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ScXMLObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLObject.html",tooltip="Base class for all SCXML objects."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ScXMLCoinEvaluator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLCoinEvaluator.html",tooltip="implements the evaluator for the custom profile named \"x-coin\"."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ScXMLECMAScriptEvaluator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLECMAScriptEvaluator.html",tooltip="evaluator for the ECMAScript profile."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ScXMLMinimumEvaluator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLMinimumEvaluator.html",tooltip="implements the evaluator for the minimum profile."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ScXMLXPathEvaluator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLXPathEvaluator.html",tooltip="implements the XPath evaluator."];
+}

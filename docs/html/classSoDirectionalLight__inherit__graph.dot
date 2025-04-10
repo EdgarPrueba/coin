@@ -1,0 +1,19 @@
+digraph "SoDirectionalLight"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoDirectionalLight",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoDirectionalLight class is a node type for specifying directional light sources."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoLight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoLight.html",tooltip="The SoLight class is the base class for light emitting nodes."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoNode.html",tooltip="The SoNode class is the base class for nodes used in scene graphs."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoFieldContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoFieldContainer.html",tooltip="The SoFieldContainer class is a base class for all classes that contain fields."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBase.html",tooltip="The SoBase class is the top-level superclass for a number of class-hierarchies."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoDirectionalLightManip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoDirectionalLightManip.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoShadowDirectionalLight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShadowDirectionalLight.html",tooltip="The SoShadowDirectionalLight class is a node for setting up a directional light which casts shadows."];
+}

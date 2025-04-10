@@ -1,0 +1,21 @@
+digraph "SoGLCacheListP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoGLCacheListP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" opencache" ,fontname="Helvetica"];
+  Node2 [label="SoGLRenderCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLRenderCache.html",tooltip="The SoGLRenderCache class is used to cache OpenGL calls."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoCache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCache.html",tooltip="The SoCache class is the superclass for all internal cache classes."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" itemlist" ,fontname="Helvetica"];
+  Node4 [label="SbList\< SoGLRenderCache * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" invalidelement" ,fontname="Helvetica"];
+  Node5 [label="SoElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoElement.html",tooltip="SoElement is the abstract base class for all elements."];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stackToType" ,fontname="Helvetica"];
+  Node6 [label="SoTypeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTypeList.html",tooltip="The SoTypeList class is a container class for arrays of SoType objects."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" typeId" ,fontname="Helvetica"];
+  Node8 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+}

@@ -1,0 +1,55 @@
+digraph "include/Inventor/nodes/SoOrthographicCamera.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Inventor/nodes\l/SoOrthographicCamera.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/navigation/SoCameraUtils.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoCameraUtils_8cpp.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/navigation/all\l-navigation-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-navigation-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/navigation/SoScXMLDolly\lTarget.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoScXMLDollyTarget_8cpp.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/navigation/SoScXMLPan\lTarget.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoScXMLPanTarget_8cpp.html",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/navigation/SoScXMLRotate\lTarget.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoScXMLRotateTarget_8cpp.html",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/navigation/SoScXMLSpin\lTarget.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoScXMLSpinTarget_8cpp.html",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/navigation/SoScXMLZoom\lTarget.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoScXMLZoomTarget_8cpp.html",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/nodes/SoOrthographic\lCamera.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoOrthographicCamera_8cpp.html",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/nodes/all-nodes\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-nodes-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/nodes/SoSceneTexture\lCubeMap.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoSceneTextureCubeMap_8cpp.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/rendering/SoRenderManager\lP.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoRenderManagerP_8cpp.html",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/rendering/all-rendering\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-rendering-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/shadows/SoShadowGroup.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShadowGroup_8cpp.html",tooltip=" "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/shadows/all-shadows\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-shadows-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="include/Inventor/nodes\l/SoNodes.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoNodes_8h.html",tooltip=" "];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="src/actions/SoToVRML2Action.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoToVRML2Action_8cpp.html",tooltip=" "];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="src/actions/all-actions\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-actions-cpp_8cpp.html",tooltip=" "];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="src/actions/SoToVRMLAction.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoToVRMLAction_8cpp.html",tooltip=" "];
+  Node19 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="src/nodes/SoNode.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoNode_8cpp.html",tooltip=" "];
+  Node20 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="include/Inventor/So.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$So_8h.html",tooltip=" "];
+}

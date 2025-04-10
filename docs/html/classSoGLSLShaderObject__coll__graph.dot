@@ -1,0 +1,30 @@
+digraph "SoGLSLShaderObject"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoGLSLShaderObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoGLShaderObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLShaderObject.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" glctx" ,fontname="Helvetica"];
+  Node3 [label="cc_glglue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__glglue.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dl_handle" ,fontname="Helvetica"];
+  Node4 [label="cc_libhandle_struct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__libhandle__struct.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" libname" ,fontname="Helvetica"];
+  Node5 [label="SbString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbString.html",tooltip="The SbString class is a string class with convenience functions for string operations."];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" glextdict" ,fontname="Helvetica"];
+  Node6 [label="cc_dict",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__dict.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" memalloc" ,fontname="Helvetica"];
+  Node7 [label="cc_memalloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__memalloc.html",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" memnode" ,fontname="Helvetica"];
+  Node8 [label="cc_memalloc_memnode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__memalloc__memnode.html",tooltip=" "];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" free" ,fontname="Helvetica"];
+  Node9 [label="cc_memalloc_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__memalloc__free.html",tooltip=" "];
+  Node9 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+  Node10 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buckets" ,fontname="Helvetica"];
+  Node10 [label="cc_dict_entry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__dict__entry.html",tooltip=" "];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" glx" ,fontname="Helvetica"];
+  Node11 [label="cc_glxglue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcc__glxglue.html",tooltip=" "];
+}

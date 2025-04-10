@@ -1,0 +1,13 @@
+digraph "SoProfilerTopEngineP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoProfilerTopEngineP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node2 [label="SoProfilerTopEngineP\l::StatDataItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structSoProfilerTopEngineP_1_1StatDataItem.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node3 [label="SbName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbName.html",tooltip="The SbName class stores strings by reference."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" timing\ntimingavg\ntimingmax" ,fontname="Helvetica"];
+  Node4 [label="SbTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbTime.html",tooltip="The SbTime class instances represents time values."];
+}

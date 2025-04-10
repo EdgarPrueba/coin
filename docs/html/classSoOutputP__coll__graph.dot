@@ -1,0 +1,20 @@
+digraph "SoOutputP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoOutputP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" protostack" ,fontname="Helvetica"];
+  Node2 [label="SbList\< SoProto * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" routestack" ,fontname="Helvetica"];
+  Node3 [label="SbList\< SoOutputROUTEList * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dblprecision\nfltprecision\nheaderstring" ,fontname="Helvetica"];
+  Node4 [label="SbString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbString.html",tooltip="The SbString class is a string class with convenience functions for string operations."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" counter" ,fontname="Helvetica"];
+  Node5 [label="SoWriterefCounter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoWriterefCounter.html",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" compmethod" ,fontname="Helvetica"];
+  Node6 [label="SbName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbName.html",tooltip="The SbName class stores strings by reference."];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defstack" ,fontname="Helvetica"];
+  Node7 [label="SbList\< SbHash * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+}

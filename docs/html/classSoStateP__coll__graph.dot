@@ -1,0 +1,27 @@
+digraph "SoStateP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoStateP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pushstore" ,fontname="Helvetica"];
+  Node2 [label="sostate_pushstore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsostate__pushstore.html",tooltip=" "];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next\nprev" ,fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="SbList\< int \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" action" ,fontname="Helvetica"];
+  Node4 [label="SoAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAction.html",tooltip="The SoAction class is the base class for all traversal actions."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" traversalMethods" ,fontname="Helvetica"];
+  Node5 [label="SoActionMethodList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoActionMethodList.html",tooltip="The SoActionMethodList class contains function pointers for action methods."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node7 [label="SoState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoState.html",tooltip="The SoState class manages the Coin scene graph traversal state data."];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" initial" ,fontname="Helvetica"];
+  Node8 [label="SoElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoElement.html",tooltip="SoElement is the abstract base class for all elements."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stackToType" ,fontname="Helvetica"];
+  Node9 [label="SoTypeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTypeList.html",tooltip="The SoTypeList class is a container class for arrays of SoType objects."];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" typeId" ,fontname="Helvetica"];
+  Node10 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+}

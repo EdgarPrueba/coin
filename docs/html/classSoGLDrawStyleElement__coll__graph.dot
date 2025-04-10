@@ -1,0 +1,19 @@
+digraph "SoGLDrawStyleElement"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoGLDrawStyleElement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SoGLDrawStyleElement updates the current draw style in OpenGL."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoDrawStyleElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoDrawStyleElement.html",tooltip="The SoDrawStyleElement class is yet to be documented."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoInt32Element",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoInt32Element.html",tooltip="The SoInt32Element class is the base class for elements that simply store a 32-bit integer."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoElement.html",tooltip="SoElement is the abstract base class for all elements."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stackToType" ,fontname="Helvetica"];
+  Node5 [label="SoTypeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTypeList.html",tooltip="The SoTypeList class is a container class for arrays of SoType objects."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" typeId" ,fontname="Helvetica"];
+  Node7 [label="SoType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoType.html",tooltip="The SoType class is the basis for the runtime type system in Coin."];
+}

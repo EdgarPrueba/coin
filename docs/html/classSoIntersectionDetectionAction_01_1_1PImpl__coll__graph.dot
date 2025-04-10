@@ -1,0 +1,26 @@
+digraph "SoIntersectionDetectionAction ::PImpl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SoIntersectionDetectionAction\l ::PImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" prunetypes\ntraversaltypes" ,fontname="Helvetica"];
+  Node2 [label="SoTypeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTypeList.html",tooltip="The SoTypeList class is a container class for arrays of SoType objects."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SbPList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbPList.html",tooltip="The SbPList class is a container class for void pointers."];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fullxfbbox" ,fontname="Helvetica"];
+  Node4 [label="SbXfBox3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbXfBox3f.html",tooltip="The SbXfBox3f class is a 3 dimensional box with floating point coordinates and an attached transforma..."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SbBox3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbBox3f.html",tooltip="The SbBox3f class is an abstraction for an axis aligned 3 dimensional box."];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" traverser" ,fontname="Helvetica"];
+  Node6 [label="SoCallbackAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCallbackAction.html",tooltip="The SoCallbackAction class invokes callbacks at specific nodes."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAction.html",tooltip="The SoAction class is the base class for all traversal actions."];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" traversalMethods" ,fontname="Helvetica"];
+  Node8 [label="SoActionMethodList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoActionMethodList.html",tooltip="The SoActionMethodList class contains function pointers for action methods."];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node9 [label="SoState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoState.html",tooltip="The SoState class manages the Coin scene graph traversal state data."];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" shapedata" ,fontname="Helvetica"];
+  Node10 [label="SbList\< ShapeData * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+}

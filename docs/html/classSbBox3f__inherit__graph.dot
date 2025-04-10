@@ -1,0 +1,9 @@
+digraph "SbBox3f"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SbBox3f",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SbBox3f class is an abstraction for an axis aligned 3 dimensional box."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SbXfBox3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbXfBox3f.html",tooltip="The SbXfBox3f class is a 3 dimensional box with floating point coordinates and an attached transforma..."];
+}

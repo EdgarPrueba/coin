@@ -1,0 +1,24 @@
+digraph "include/Inventor/annex/FXViz/elements/SoShadowStyleElement.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Inventor/annex\l/FXViz/elements/SoShadowStyle\lElement.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/shadows/SoShadowGroup.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShadowGroup_8cpp.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/shadows/all-shadows\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-shadows-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/shadows/SoShadowStyle\lElement.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShadowStyleElement_8cpp.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/shapenodes/SoShape.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShape_8cpp.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/shapenodes/all\l-shapenodes-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-shapenodes-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="include/Inventor/annex\l/FXViz/nodes/SoShadowStyle.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShadowStyle_8h.html",tooltip=" "];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/shadows/SoShadowStyle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoShadowStyle_8cpp.html",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

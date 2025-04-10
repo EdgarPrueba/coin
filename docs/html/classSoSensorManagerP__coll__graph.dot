@@ -1,0 +1,24 @@
+digraph "SoSensorManagerP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoSensorManagerP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" timerqueue" ,fontname="Helvetica"];
+  Node2 [label="SbList\< SoTimerQueueSensor * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" reschedulelist" ,fontname="Helvetica"];
+  Node3 [label="SbList\< SoTimerSensor * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" timeoutsensor" ,fontname="Helvetica"];
+  Node4 [label="SoAlarmSensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAlarmSensor.html",tooltip="The SoAlarmSensor class is a sensor which will trigger once at a specified time."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoTimerQueueSensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoTimerQueueSensor.html",tooltip="The SoTimerQueueSensor class is the abstract base class for sensors triggering on certain timer event..."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoSensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSensor.html",tooltip="The SoSensor class is the abstract base class for all sensors."];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" delaysensortimeout" ,fontname="Helvetica"];
+  Node7 [label="SbTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbTime.html",tooltip="The SbTime class instances represents time values."];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" reinsertdict\ntriggerdict" ,fontname="Helvetica"];
+  Node8 [label="SbHash\< SoDelayQueueSensor\l *, SoDelayQueueSensor * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbHash.html",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" delayqueue\nimmediatequeue" ,fontname="Helvetica"];
+  Node9 [label="SbList\< SoDelayQueueSensor * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbList.html",tooltip=" "];
+}

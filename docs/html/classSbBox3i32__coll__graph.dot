@@ -1,0 +1,9 @@
+digraph "SbBox3i32"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SbBox3i32",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The SbBox3i32 class is a 3 dimensional box with 32-bit integer coordinates."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" maxpt\nminpt" ,fontname="Helvetica"];
+  Node2 [label="SbVec3i32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbVec3i32.html",tooltip=" "];
+}
