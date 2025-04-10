@@ -1,0 +1,36 @@
+digraph "cc_ftglue_t"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="cc_ftglue_t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FT_Outline_Decompose" ,fontname="Helvetica"];
+  Node2 [label="FT_Outline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Outline.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" points" ,fontname="Helvetica"];
+  Node3 [label="FT_Vector_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Vector__.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FT_Done_Glyph\nFT_Get_Glyph\nFT_Glyph_To_Bitmap" ,fontname="Helvetica"];
+  Node4 [label="FT_GlyphRec_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__GlyphRec__.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" advance" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FT_Get_Char_Index\nFT_Get_Kerning\nFT_Load_Glyph\nFT_New_Face\nFT_Select_Charmap\nFT_Set_Char_Size\nFT_Set_Transform" ,fontname="Helvetica"];
+  Node5 [label="FT_FaceRec_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__FaceRec__.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" charmap\ncharmaps" ,fontname="Helvetica"];
+  Node6 [label="FT_CharMapRec_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__CharMapRec__.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" face" ,fontname="Helvetica"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" generic" ,fontname="Helvetica"];
+  Node7 [label="FT_Generic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Generic.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" glyph" ,fontname="Helvetica"];
+  Node8 [label="FT_GlyphSlotRec_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__GlyphSlotRec__.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bitmap" ,fontname="Helvetica"];
+  Node9 [label="FT_Bitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Bitmap.html",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" advance" ,fontname="Helvetica"];
+  Node7 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" generic" ,fontname="Helvetica"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" outline" ,fontname="Helvetica"];
+  Node5 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" face" ,fontname="Helvetica"];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" metrics" ,fontname="Helvetica"];
+  Node10 [label="FT_Glyph_Metrics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Glyph__Metrics.html",tooltip=" "];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" available_sizes" ,fontname="Helvetica"];
+  Node11 [label="FT_Bitmap_Size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__Bitmap__Size.html",tooltip=" "];
+  Node12 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bbox" ,fontname="Helvetica"];
+  Node12 [label="FT_BBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structFT__BBox.html",tooltip=" "];
+}

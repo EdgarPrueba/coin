@@ -1,0 +1,11 @@
+digraph "include/Inventor/C/errors" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c926cf464acaebc2091d00c8a935648f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="C" fontname="Helvetica", fontsize="10", URL="dir_c926cf464acaebc2091d00c8a935648f.html"]
+  dir_7a50db6ab5259f91fa54d5ee03ce5859 [shape=box label="base" URL="dir_7a50db6ab5259f91fa54d5ee03ce5859.html"];
+  dir_cbeb1cbd759caa5553ddde5a46e547d1 [shape=box, label="errors", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_cbeb1cbd759caa5553ddde5a46e547d1.html"];
+  }
+  dir_cbeb1cbd759caa5553ddde5a46e547d1->dir_7a50db6ab5259f91fa54d5ee03ce5859 [headlabel="1", labeldistance=1.5 headhref="dir_000018_000017.html"];
+}

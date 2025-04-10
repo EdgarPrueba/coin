@@ -1,0 +1,14 @@
+digraph "include/Inventor/annex/ForeignFiles" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7eabc74ee96f78b1d9e65fb468addeca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="annex" fontname="Helvetica", fontsize="10", URL="dir_7eabc74ee96f78b1d9e65fb468addeca.html"]
+  dir_caec12244975a488127e466c24aaa600 [shape=box, label="ForeignFiles", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_caec12244975a488127e466c24aaa600.html"];
+  }
+  dir_3a848b90e1404780a5d06bb25bf974e3 [shape=box label="fields" URL="dir_3a848b90e1404780a5d06bb25bf974e3.html"];
+  dir_9a2009052589fb2a7456603853aac0dd [shape=box label="nodekits" URL="dir_9a2009052589fb2a7456603853aac0dd.html"];
+  dir_caec12244975a488127e466c24aaa600->dir_3a848b90e1404780a5d06bb25bf974e3 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000031.html"];
+  dir_caec12244975a488127e466c24aaa600->dir_9a2009052589fb2a7456603853aac0dd [headlabel="2", labeldistance=1.5 headhref="dir_000004_000037.html"];
+  dir_9a2009052589fb2a7456603853aac0dd->dir_3a848b90e1404780a5d06bb25bf974e3 [headlabel="6", labeldistance=1.5 headhref="dir_000037_000031.html"];
+}

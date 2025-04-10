@@ -1,0 +1,11 @@
+digraph "include/Inventor/annex/FXViz/elements" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_af1f142ece8247046dde338b77c8cb0b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FXViz" fontname="Helvetica", fontsize="10", URL="dir_af1f142ece8247046dde338b77c8cb0b.html"]
+  dir_998443e587efda5020095fd39473541f [shape=box, label="elements", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_998443e587efda5020095fd39473541f.html"];
+  }
+  dir_4be52554de5475a620e8b38d2057de84 [shape=box label="elements" URL="dir_4be52554de5475a620e8b38d2057de84.html"];
+  dir_998443e587efda5020095fd39473541f->dir_4be52554de5475a620e8b38d2057de84 [headlabel="2", labeldistance=1.5 headhref="dir_000006_000027.html"];
+}

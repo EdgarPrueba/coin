@@ -1,0 +1,58 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ScXMLEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLEltReader.html",tooltip="base class for element reader objects"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ScXMLAnchorEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLAnchorEltReader.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ScXMLAssignEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLAssignEltReader.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ScXMLContentEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLContentEltReader.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ScXMLDataEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLDataEltReader.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ScXMLDataModelEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLDataModelEltReader.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ScXMLElseEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLElseEltReader.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ScXMLElseIfEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLElseIfEltReader.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ScXMLEventEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLEventEltReader.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ScXMLFinalEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLFinalEltReader.html",tooltip=" "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ScXMLFinalizeEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLFinalizeEltReader.html",tooltip=" "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ScXMLHistoryEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLHistoryEltReader.html",tooltip=" "];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ScXMLIfEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLIfEltReader.html",tooltip=" "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="ScXMLInitialEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLInitialEltReader.html",tooltip=" "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ScXMLInvokeEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLInvokeEltReader.html",tooltip=" "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="ScXMLLogEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLLogEltReader.html",tooltip=" "];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ScXMLOnEntryEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLOnEntryEltReader.html",tooltip=" "];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ScXMLOnExitEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLOnExitEltReader.html",tooltip=" "];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ScXMLParallelEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLParallelEltReader.html",tooltip=" "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ScXMLParamEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLParamEltReader.html",tooltip=" "];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ScXMLScriptEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLScriptEltReader.html",tooltip=" "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ScXMLScxmlEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLScxmlEltReader.html",tooltip=" "];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="ScXMLSendEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLSendEltReader.html",tooltip=" "];
+  Node0 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="ScXMLStateEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLStateEltReader.html",tooltip=" "];
+  Node0 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="ScXMLTransitionEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLTransitionEltReader.html",tooltip=" "];
+  Node0 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="ScXMLValidateEltReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScXMLValidateEltReader.html",tooltip=" "];
+}

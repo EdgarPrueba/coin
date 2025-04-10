@@ -1,0 +1,11 @@
+digraph "include/Inventor/annex/Profiler/utils" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_087b523aeb037e0c64242cae2e781c74 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Profiler" fontname="Helvetica", fontsize="10", URL="dir_087b523aeb037e0c64242cae2e781c74.html"]
+  dir_245de7e4978633919b56169473dca2dc [shape=box, label="utils", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_245de7e4978633919b56169473dca2dc.html"];
+  }
+  dir_ca70c12236109a46e85d75bbee1802dc [shape=box label="lists" URL="dir_ca70c12236109a46e85d75bbee1802dc.html"];
+  dir_245de7e4978633919b56169473dca2dc->dir_ca70c12236109a46e85d75bbee1802dc [headlabel="1", labeldistance=1.5 headhref="dir_000014_000032.html"];
+}

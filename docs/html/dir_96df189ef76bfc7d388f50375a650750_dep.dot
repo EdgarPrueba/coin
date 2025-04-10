@@ -1,0 +1,11 @@
+digraph "include/Inventor/sensors" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_c6fd86a54b85be66f511a749989088b2 [shape=box label="misc" URL="dir_c6fd86a54b85be66f511a749989088b2.html"];
+  dir_96df189ef76bfc7d388f50375a650750 [shape=box, label="sensors", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_96df189ef76bfc7d388f50375a650750.html"];
+  }
+  dir_96df189ef76bfc7d388f50375a650750->dir_c6fd86a54b85be66f511a749989088b2 [headlabel="1", labeldistance=1.5 headhref="dir_000041_000033.html"];
+}

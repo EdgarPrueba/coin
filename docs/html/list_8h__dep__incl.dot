@@ -1,0 +1,45 @@
+digraph "include/Inventor/C/base/list.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Inventor/C\l/base/list.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/base/list.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$list_8cpp.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/base/all-base-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-base-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/fonts/fontlib_wrapper.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fontlib__wrapper_8h.html",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/fonts/fontlib_wrapper.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fontlib__wrapper_8cpp.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/fonts/all-fonts\l-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-fonts-cpp_8cpp.html",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/fonts/glyph.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$glyph_8cpp.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/fonts/glyph2d.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$glyph2d_8cpp.html",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/fonts/glyph3d.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$glyph3d_8cpp.html",tooltip=" "];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/misc/SoGlyph.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$SoGlyph_8cpp.html",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/misc/all-misc-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-misc-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/fonts/win32.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$win32_8cpp.html",tooltip=" "];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/glue/gl.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gl_8cpp.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/glue/all-glue-cpp.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$all-glue-cpp_8cpp.html",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/threads/wpoolp.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wpoolp_8h.html",tooltip=" "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="src/threads/wpool.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wpool_8cpp.html",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="src/tidbits.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tidbits_8cpp.html",tooltip=" "];
+}

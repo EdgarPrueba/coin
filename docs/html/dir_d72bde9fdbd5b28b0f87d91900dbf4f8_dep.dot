@@ -1,0 +1,14 @@
+digraph "include/Inventor/bundles" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_4be52554de5475a620e8b38d2057de84 [shape=box label="elements" URL="dir_4be52554de5475a620e8b38d2057de84.html"];
+  dir_c6fd86a54b85be66f511a749989088b2 [shape=box label="misc" URL="dir_c6fd86a54b85be66f511a749989088b2.html"];
+  dir_d72bde9fdbd5b28b0f87d91900dbf4f8 [shape=box, label="bundles", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d72bde9fdbd5b28b0f87d91900dbf4f8.html"];
+  }
+  dir_d72bde9fdbd5b28b0f87d91900dbf4f8->dir_4be52554de5475a620e8b38d2057de84 [headlabel="3", labeldistance=1.5 headhref="dir_000015_000027.html"];
+  dir_d72bde9fdbd5b28b0f87d91900dbf4f8->dir_c6fd86a54b85be66f511a749989088b2 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000033.html"];
+  dir_4be52554de5475a620e8b38d2057de84->dir_c6fd86a54b85be66f511a749989088b2 [headlabel="1", labeldistance=1.5 headhref="dir_000027_000033.html"];
+}

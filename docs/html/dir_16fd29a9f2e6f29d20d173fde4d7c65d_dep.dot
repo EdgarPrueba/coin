@@ -1,0 +1,9 @@
+digraph "include/Inventor/tools" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_16fd29a9f2e6f29d20d173fde4d7c65d [shape=box, label="tools", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_16fd29a9f2e6f29d20d173fde4d7c65d.html"];
+  }
+}

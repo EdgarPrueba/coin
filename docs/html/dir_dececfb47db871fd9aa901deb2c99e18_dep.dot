@@ -1,0 +1,9 @@
+digraph "include/Inventor/lock" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_dececfb47db871fd9aa901deb2c99e18 [shape=box, label="lock", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_dececfb47db871fd9aa901deb2c99e18.html"];
+  }
+}

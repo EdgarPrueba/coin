@@ -1,0 +1,9 @@
+digraph "include/Inventor/C/base" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c926cf464acaebc2091d00c8a935648f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="C" fontname="Helvetica", fontsize="10", URL="dir_c926cf464acaebc2091d00c8a935648f.html"]
+  dir_7a50db6ab5259f91fa54d5ee03ce5859 [shape=box, label="base", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7a50db6ab5259f91fa54d5ee03ce5859.html"];
+  }
+}

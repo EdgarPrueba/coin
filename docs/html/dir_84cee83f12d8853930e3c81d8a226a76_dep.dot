@@ -1,0 +1,11 @@
+digraph "include/Inventor/details" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_c926cf464acaebc2091d00c8a935648f [shape=box label="C" fillcolor="white" style="filled" color="red" URL="dir_c926cf464acaebc2091d00c8a935648f.html"];
+  dir_84cee83f12d8853930e3c81d8a226a76 [shape=box, label="details", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_84cee83f12d8853930e3c81d8a226a76.html"];
+  }
+  dir_84cee83f12d8853930e3c81d8a226a76->dir_c926cf464acaebc2091d00c8a935648f [headlabel="1", labeldistance=1.5 headhref="dir_000025_000016.html"];
+}

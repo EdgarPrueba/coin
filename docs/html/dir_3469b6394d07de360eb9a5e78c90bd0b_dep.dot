@@ -1,0 +1,16 @@
+digraph "include/Inventor/annex/FXViz/nodes" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_af1f142ece8247046dde338b77c8cb0b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FXViz" fontname="Helvetica", fontsize="10", URL="dir_af1f142ece8247046dde338b77c8cb0b.html"]
+  dir_998443e587efda5020095fd39473541f [shape=box label="elements" URL="dir_998443e587efda5020095fd39473541f.html"];
+  dir_3469b6394d07de360eb9a5e78c90bd0b [shape=box, label="nodes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3469b6394d07de360eb9a5e78c90bd0b.html"];
+  }
+  dir_3a848b90e1404780a5d06bb25bf974e3 [shape=box label="fields" URL="dir_3a848b90e1404780a5d06bb25bf974e3.html"];
+  dir_a1c1d9fc954b6310fc06e1f59b6e0117 [shape=box label="nodes" URL="dir_a1c1d9fc954b6310fc06e1f59b6e0117.html"];
+  dir_3469b6394d07de360eb9a5e78c90bd0b->dir_3a848b90e1404780a5d06bb25bf974e3 [headlabel="11", labeldistance=1.5 headhref="dir_000007_000031.html"];
+  dir_3469b6394d07de360eb9a5e78c90bd0b->dir_998443e587efda5020095fd39473541f [headlabel="2", labeldistance=1.5 headhref="dir_000007_000006.html"];
+  dir_3469b6394d07de360eb9a5e78c90bd0b->dir_a1c1d9fc954b6310fc06e1f59b6e0117 [headlabel="8", labeldistance=1.5 headhref="dir_000007_000038.html"];
+  dir_a1c1d9fc954b6310fc06e1f59b6e0117->dir_3a848b90e1404780a5d06bb25bf974e3 [headlabel="248", labeldistance=1.5 headhref="dir_000038_000031.html"];
+}

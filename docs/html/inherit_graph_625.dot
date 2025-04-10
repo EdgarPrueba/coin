@@ -1,0 +1,52 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SoAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAction.html",tooltip="The SoAction class is the base class for all traversal actions."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SoAudioRenderAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoAudioRenderAction.html",tooltip="The SoAudioRenderAction class renders the aural parts of the scene graph."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoCallbackAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoCallbackAction.html",tooltip="The SoCallbackAction class invokes callbacks at specific nodes."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoVectorizeAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVectorizeAction.html",tooltip="The SoVectorizeAction class is the base class for vectorizing Coin scene graphs."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoVectorizePSAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoVectorizePSAction.html",tooltip="The SoVectorizePSAction class is used for rendering to a PostScript file."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoGLRenderAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGLRenderAction.html",tooltip="The SoGLRenderAction class renders the scene graph with OpenGL calls."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoBoxHighlightRenderAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoBoxHighlightRenderAction.html",tooltip="The SoBoxHighlightRenderAction class renders the scene with highlighted boxes around selections."];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoLineHighlightRenderAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoLineHighlightRenderAction.html",tooltip="The SoLineHighlightRenderAction class renders selections with line highlighting."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoGetBoundingBoxAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGetBoundingBoxAction.html",tooltip="The SoGetBoundingBoxAction class calculates bounding boxes for nodes and subgraphs."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SoGetMatrixAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGetMatrixAction.html",tooltip="The SoGetMatrixAction class is an action for accumulating the transformation matrix of a subgraph."];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SoGetPrimitiveCountAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGetPrimitiveCountAction.html",tooltip="The SoGetPrimitiveCountAction class counts the primitives in a scene."];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SoHandleEventAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoHandleEventAction.html",tooltip="The SoHandleEventAction class distributes user events to the scene."];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoIntersectionDetectionAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoIntersectionDetectionAction.html",tooltip="The SoIntersectionDetectionAction class is for detecting intersecting primitives in a scene."];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SoPickAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoPickAction.html",tooltip="The SoPickAction class is the base class for picking actions."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SoRayPickAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoRayPickAction.html",tooltip="The SoRayPickAction class does ray intersection with scene graphs."];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SoSearchAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSearchAction.html",tooltip="The SoSearchAction class provides methods for searching through scene graphs."];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SoSimplifyAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoSimplifyAction.html",tooltip="The SoSimplifyAction class is the base class for the simplify action classes."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SoGlobalSimplifyAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoGlobalSimplifyAction.html",tooltip="The SoGlobalSimplifyAction class is for globally simplifying the geometry of a scene graph,..."];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SoReorganizeAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoReorganizeAction.html",tooltip="The SoReorganizeAction class reorganizes your scene graph to optimize traversal/rendering."];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SoShapeSimplifyAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoShapeSimplifyAction.html",tooltip="The SoShapeSimplifyAction class replaces complex primitives with simplified polygon representations."];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SoToVRMLAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoToVRMLAction.html",tooltip="The SoToVRMLAction class builds a new scene graph using only VRML 1.0 nodes."];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SoToVRML2Action",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoToVRML2Action.html",tooltip="The SoToVRML2Action class builds a new scene graph, using only VRML97/VRML2 nodes."];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SoWriteAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSoWriteAction.html",tooltip="The SoWriteAction class writes a scene graph to file."];
+}

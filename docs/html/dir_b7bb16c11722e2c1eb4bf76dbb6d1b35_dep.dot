@@ -1,0 +1,11 @@
+digraph "include/Inventor/C/threads" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c926cf464acaebc2091d00c8a935648f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="C" fontname="Helvetica", fontsize="10", URL="dir_c926cf464acaebc2091d00c8a935648f.html"]
+  dir_7a50db6ab5259f91fa54d5ee03ce5859 [shape=box label="base" URL="dir_7a50db6ab5259f91fa54d5ee03ce5859.html"];
+  dir_b7bb16c11722e2c1eb4bf76dbb6d1b35 [shape=box, label="threads", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b7bb16c11722e2c1eb4bf76dbb6d1b35.html"];
+  }
+  dir_b7bb16c11722e2c1eb4bf76dbb6d1b35->dir_7a50db6ab5259f91fa54d5ee03ce5859 [headlabel="1", labeldistance=1.5 headhref="dir_000021_000017.html"];
+}

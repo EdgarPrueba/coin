@@ -1,0 +1,15 @@
+digraph "SpiderMonkey_t"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SpiderMonkey_t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" JS_DefineProperties" ,fontname="Helvetica"];
+  Node2 [label="JSPropertySpec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structJSPropertySpec.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" JS_DestroyIdArray\nJS_Enumerate" ,fontname="Helvetica"];
+  Node3 [label="JSIdArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structJSIdArray.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" JS_ConstructObjectWithArguments\nJS_DefineObject\nJS_GetClass\nJS_InitClass\nJS_InstanceOf\nJS_NewObject" ,fontname="Helvetica"];
+  Node4 [label="JSClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structJSClass.html",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" JS_DefineFunctions" ,fontname="Helvetica"];
+  Node5 [label="JSFunctionSpec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structJSFunctionSpec.html",tooltip=" "];
+}

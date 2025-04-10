@@ -1,0 +1,15 @@
+digraph "include/Inventor/collision" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_16fd29a9f2e6f29d20d173fde4d7c65d [shape=box label="tools" URL="dir_16fd29a9f2e6f29d20d173fde4d7c65d.html"];
+  dir_4be02981134b54e3e345677ce1882bfe [shape=box label="actions" URL="dir_4be02981134b54e3e345677ce1882bfe.html"];
+  dir_f6d2dff144b061c89a2cdc8ec05c007f [shape=box, label="collision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f6d2dff144b061c89a2cdc8ec05c007f.html"];
+  }
+  dir_f6d2dff144b061c89a2cdc8ec05c007f->dir_16fd29a9f2e6f29d20d173fde4d7c65d [headlabel="1", labeldistance=1.5 headhref="dir_000024_000043.html"];
+  dir_f6d2dff144b061c89a2cdc8ec05c007f->dir_4be02981134b54e3e345677ce1882bfe [headlabel="3", labeldistance=1.5 headhref="dir_000024_000002.html"];
+  dir_4be02981134b54e3e345677ce1882bfe->dir_16fd29a9f2e6f29d20d173fde4d7c65d [headlabel="10", labeldistance=1.5 headhref="dir_000002_000043.html"];
+  dir_4be02981134b54e3e345677ce1882bfe->dir_f6d2dff144b061c89a2cdc8ec05c007f [headlabel="1", labeldistance=1.5 headhref="dir_000002_000024.html"];
+}

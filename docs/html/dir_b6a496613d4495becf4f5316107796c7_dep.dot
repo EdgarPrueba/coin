@@ -1,0 +1,11 @@
+digraph "include/Inventor/C/glue" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c926cf464acaebc2091d00c8a935648f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="C" fontname="Helvetica", fontsize="10", URL="dir_c926cf464acaebc2091d00c8a935648f.html"]
+  dir_b6a496613d4495becf4f5316107796c7 [shape=box, label="glue", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b6a496613d4495becf4f5316107796c7.html"];
+  }
+  dir_ccbe5ea3496a22e625d8939f76145396 [shape=box label="system" URL="dir_ccbe5ea3496a22e625d8939f76145396.html"];
+  dir_b6a496613d4495becf4f5316107796c7->dir_ccbe5ea3496a22e625d8939f76145396 [headlabel="1", labeldistance=1.5 headhref="dir_000019_000020.html"];
+}

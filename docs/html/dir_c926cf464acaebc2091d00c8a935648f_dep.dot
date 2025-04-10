@@ -1,0 +1,21 @@
+digraph "include/Inventor/C" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_469ed70aca823fd8322768ad54869f94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Inventor" fontname="Helvetica", fontsize="10", URL="dir_469ed70aca823fd8322768ad54869f94.html"]
+  dir_ccbe5ea3496a22e625d8939f76145396 [shape=box label="system" URL="dir_ccbe5ea3496a22e625d8939f76145396.html"];
+  subgraph clusterdir_c926cf464acaebc2091d00c8a935648f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c926cf464acaebc2091d00c8a935648f.html"];
+    dir_c926cf464acaebc2091d00c8a935648f [shape=plaintext label="C"];
+  dir_7a50db6ab5259f91fa54d5ee03ce5859 [shape=box label="base" fillcolor="white" style="filled" URL="dir_7a50db6ab5259f91fa54d5ee03ce5859.html"];
+  dir_cbeb1cbd759caa5553ddde5a46e547d1 [shape=box label="errors" fillcolor="white" style="filled" URL="dir_cbeb1cbd759caa5553ddde5a46e547d1.html"];
+  dir_b6a496613d4495becf4f5316107796c7 [shape=box label="glue" fillcolor="white" style="filled" URL="dir_b6a496613d4495becf4f5316107796c7.html"];
+  dir_b7bb16c11722e2c1eb4bf76dbb6d1b35 [shape=box label="threads" fillcolor="white" style="filled" URL="dir_b7bb16c11722e2c1eb4bf76dbb6d1b35.html"];
+  dir_86db8f5a283247f455059497615f9584 [shape=box label="XML" fillcolor="white" style="filled" URL="dir_86db8f5a283247f455059497615f9584.html"];
+  }
+  }
+  dir_b6a496613d4495becf4f5316107796c7->dir_ccbe5ea3496a22e625d8939f76145396 [headlabel="1", labeldistance=1.5 headhref="dir_000019_000020.html"];
+  dir_cbeb1cbd759caa5553ddde5a46e547d1->dir_7a50db6ab5259f91fa54d5ee03ce5859 [headlabel="1", labeldistance=1.5 headhref="dir_000018_000017.html"];
+  dir_b7bb16c11722e2c1eb4bf76dbb6d1b35->dir_7a50db6ab5259f91fa54d5ee03ce5859 [headlabel="1", labeldistance=1.5 headhref="dir_000021_000017.html"];
+}

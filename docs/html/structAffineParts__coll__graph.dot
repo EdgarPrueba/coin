@@ -1,0 +1,11 @@
+digraph "AffineParts"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AffineParts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" q\nu" ,fontname="Helvetica"];
+  Node2 [label="SbDPRotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbDPRotation.html",tooltip="The SbDPRotation class represents a rotation in 3D space using double precision data."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" k\nt" ,fontname="Helvetica"];
+  Node3 [label="SbVec4d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSbVec4d.html",tooltip="The SbVec4d class is a 4 dimensional vector with double precision floating point coordinates."];
+}
